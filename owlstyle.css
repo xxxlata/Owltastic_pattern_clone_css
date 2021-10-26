@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 3rem 2rem;
+    background-color: #faf7eb;
+    height: 530vh;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #214262;
+}
+
+.nav_logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_logo h2{
+    font: 26px;
+    font-weight: 600;
+    font-family: ivypresto headline, serif;
+    color: #DBBD7F;
+}
+.nav_logo a {
+    font: 400 16px;
+    font-family: grad, serif;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    color: white;
+}
+.nav p {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_p p {
+    text-align: center;
+    color: #DBBD7F;
+    font-family: ivypresto headline, serif;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.nav_p h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: ivypresto headline, serif;
+    color: white;
+}
+.nav_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+.nav_button button{
+    font-family: ivypresto headline, serif;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+
+.main_top{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+.main_top_left{
+    height: 97%;
+    width: 48.5%;
+    min-width: 33.1rem;
+    margin:3% 1.5% 0 0;
+    background-color: #dbbd7f;
+    font-family:  ivypresto headline, serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.main_top_textbox{
+    margin: 2.5rem;
+}
+.main_top_left h1{
+    color: #214262;
+    font-size: 4rem;
+}
+.main_top_left p {
+    color: #214262;
+    line-height: 1.8rem;
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+.main_top_right{
+    height: 97%;
+    width: 48.5%;
+    margin: 3% 0 0 1.5%;
+    background-color: #5d7792;
+}
+
+.main_mid{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #214262;
+    height: 19%;
+    margin-top: 4%;
+}
+
+.main_row{
+    height: 19%;
+    background-color: #dbbd7f;
+    margin-top: 3%;
+}
+
+.links {
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.links_left{
+    background-color: #214262;
+    height: 97%;
+    width: 48.5%;
+    min-width: 30rem;
+    margin: 3% 1.5% 0 0;
+}
+.links_right{
+    background-color: #dbbd7f;
+    height: 97%;
+    width: 48.5%;
+    margin: 3% 0 0 1.5%;
+}
+
+.footer{
+    height: 3%;
+    margin: 4% 0;
+    background-color: #214262;
+}
