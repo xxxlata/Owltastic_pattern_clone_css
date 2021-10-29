@@ -13,7 +13,7 @@ a{
 body {
     margin: 3rem 2rem;
     background-color: #faf7eb;
-    height: 530vh;
+    height: auto;
 }
 
 .nav {
@@ -21,7 +21,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 40rem;
     background-color: #214262;
 }
 
@@ -68,8 +68,7 @@ body {
 .nav_button {
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding-top: 2rem;
+    width: 100%;    
 }
 .nav_button button{
     font-family: ivypresto headline, serif;
@@ -78,17 +77,15 @@ body {
     font-size: 1.4rem;
 }
 
-.main_top{
+.main {
     display: flex;
     flex-wrap: wrap;
-    height: 20%;
 }
 
 .main_top_left{
-    height: 97%;
-    width: 48.5%;
+    width: 45%;
     min-width: 33.1rem;
-    margin:3% 1.5% 0 0;
+    margin: 2rem 2rem 2rem 0;       
     background-color: #dbbd7f;
     font-family:  ivypresto headline, serif;
     display: flex;
@@ -109,47 +106,38 @@ body {
     font-size: 1.7rem;
 }
 .main_top_right{
-    height: 97%;
-    width: 48.5%;
-    margin: 3% 0 0 1.5%;
+    width: 45%;
+    margin: 2rem 1rem 2rem 0;
+    padding: 2rem; 
     background-color: #5d7792;
 }
 
 .main_mid{
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    padding: 20rem;
     background-color: #214262;
-    height: 19%;
-    margin-top: 4%;
 }
 
 .main_row{
-    height: 19%;
     background-color: #dbbd7f;
-    margin-top: 3%;
+    margin-top: auto;
+    width: 100%;
 }
 
-.links {
-    height: 15%;
-    display: flex;
-    flex-wrap: wrap;
-}
 .links_left{
     background-color: #214262;
-    height: 97%;
-    width: 48.5%;
-    min-width: 30rem;
-    margin: 3% 1.5% 0 0;
+
 }
 .links_right{
     background-color: #dbbd7f;
-    height: 97%;
-    width: 48.5%;
-    margin: 3% 0 0 1.5%;
+   
 }
 
 .footer{
-    height: 3%;
-    margin: 4% 0;
+    
     background-color: #214262;
+}
+
+@media screen and (max-width:1219px) {
+   
 }
