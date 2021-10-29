@@ -120,24 +120,66 @@ body {
 
 .main_row{
     background-color: #dbbd7f;
-    margin-top: auto;
+    margin-top: 2rem;
+    padding: 20rem;
     width: 100%;
 }
 
 .links_left{
     background-color: #214262;
-
+    width: 45%;
+    min-width: 33.1rem;
+    padding: 10rem 0;
+    margin: 2rem 2rem 2rem 0; 
 }
 .links_right{
     background-color: #dbbd7f;
-   
+    width: 45%;
+    min-width: 33.1rem;
+    padding: 10rem 0;
+    margin: 2rem 2rem 2rem 0;   
 }
 
 .footer{
-    
+    width: 100%;
+    padding: 3rem;
     background-color: #214262;
 }
 
-@media screen and (max-width:1219px) {
-   
+@media screen and (max-width:1230px) {
+    .main_top_left {
+        width: 60%;   
+    }
+    .main_top_left h1{
+        color: #214262;
+        font-size: 3rem;
+    }
+    .main_top_left p {
+        color: #214262;
+        line-height: 1.5rem;
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .main_top_right {
+        width: 20%;
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .main_top_left{
+        width: 100%;
+    }
+    .main_top_right {
+        width: 100%;
+        padding: 30rem 0; 
+    }
+
+    .main_mid {
+        padding: 30rem 0;
+    }
+
+    .main_row {
+        padding: 20rem 0;
+    }
 }
