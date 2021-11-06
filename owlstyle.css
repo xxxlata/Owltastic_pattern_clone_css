@@ -167,6 +167,10 @@ body {
 }
 
 @media screen and (max-width:1200px) {
+    .logo img{
+        width: 8rem;
+        height: 8rem;
+    }
     .main_top_left{
         width: 100%;
     }
